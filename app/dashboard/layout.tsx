@@ -1,6 +1,8 @@
 import SideNav from "@/app/ui/sidenav";
 import React from "react";
 
+export const experimental_ppr = true;
+
 export default function ({ children }: { children: React.ReactNode }) {
     return (
         <div className="flex h-full flex-col md:flex-row md:overflow-hidden">
